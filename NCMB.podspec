@@ -19,5 +19,4 @@ Pod::Spec.new do |s|
   s.source_files  = "NCMB/**/*.{h,m,c}"
   s.frameworks = "Foundation", "UIKit", "MobileCoreServices", "AudioToolbox", "SystemConfiguration"
   s.requires_arc = true
-  s.dependency 'FBSDKLoginKit'
 end
